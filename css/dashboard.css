@@ -120,6 +120,23 @@ section{
     background: var(--bg-cards);
     border-radius: 10px;
     box-shadow: 4px 4px 4px 0px rgb(20 20 20 / 44%);
+
+}
+.card-grid{
+display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1%;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
 }
 
 .leave-history
