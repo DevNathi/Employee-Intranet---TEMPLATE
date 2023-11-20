@@ -43,8 +43,8 @@ nav{
     justify-content: center;
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 90px;
     flex-shrink: 0;
     align-self: center ;    
     position: relative;
@@ -88,7 +88,7 @@ section{
     border-radius: 10px;
     background: #FFF;
     box-shadow: 4px 4px 4px 0px rgb(20 20 20 / 44%);
-    width: 470px;
+    width: 420px;
     height: 550px;
     flex-shrink: 0;    
 }
@@ -156,29 +156,19 @@ display: grid;
 .card button{
     padding: 6px 10px;
     background: var(--primary);
-    width: 20%;
+    width: 30px;
     border-radius: 25px;
     position: relative;
-    top: 0%;
+    top: 8%;
     border: none;
+    height: 45px;
 }
 .card button:hover{
     cursor: pointer;
     transform: scale(1.1);
     background: var(--secondary);
 }
-.card button span{
-
-    color: var(--bg-main);
-    font-size: 16px;
-    font-weight: bold;
-}
-.card button:hover, span{
-    transition: all ease-in-out 0.3s;
-    transform: scale(1.1);
-}
-.leave-history
-{
+.leave-history{
     display: flex;
     flex-direction: column;
     padding: 15px 20px;
@@ -187,6 +177,17 @@ display: grid;
     background: var(--bg-cards);
     border-radius: 10px;
     box-shadow: 4px 4px 4px 0px rgb(20 20 20 / 44%);
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.leave-history table{
+    /* margin: auto; */
+    text-align: left;
+    overflow-x: hidden;
+    /* max-width: 80vw; */
+width: 100%;
 }
 
 footer{
