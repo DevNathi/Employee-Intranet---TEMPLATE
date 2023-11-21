@@ -221,13 +221,13 @@ display: grid;
     overflow-x: hidden;
     /* max-width: 80vw; */
     width: 100%;
-    border: #000 2px solid;
+    border: #00000038 2px solid;
     border-radius: 10px;
     padding: 4px;
 }
 .leave-history table thead th{
     padding: 6px 5px;
-    background: #2e2e2e6c;
+    background: rgba(206, 206, 206, 0.4);
    
 }
 .leave-history table thead th:first-child{
@@ -239,7 +239,6 @@ display: grid;
    
 }
 .leave-history table tbody td{
-
     padding: 1px 5px;
 }
 .leave-history table tfoot td{
